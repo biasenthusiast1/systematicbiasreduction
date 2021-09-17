@@ -30,13 +30,13 @@ for each of the methods can be found
 in [Results/Runs](Results/Runs) 
 directory.
 
-![](Results/Tables/table2.png)
+![](Results/Tables/Table2.png)
 
-![](Results/Tables/table3.png)
+![](Results/Tables/Table3.png)
 
-![](Results/Tables/table4.png)
+![](Results/Tables/Table4.png)
 
-![](Results/Tables/table5.png)
+![](Results/Tables/Table5.png)
 
 ## Usage
 
