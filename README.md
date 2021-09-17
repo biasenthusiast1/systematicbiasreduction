@@ -50,7 +50,7 @@ directory.
    
 '<query, doc_positive_doc_negative, bias_doc_negative>'
 
-3. Use `train_bias_aware.py' to train the model.
+3. Run `train_bias_aware.py' to train the model.
 The command should be as follows:
 
 `python train_bias_aware.py -model bert -train 
@@ -61,7 +61,7 @@ The command should be as follows:
 -metric mrr_cut_10 -batch_size 16 -max_input 12800000 -epoch 1 
 -eval_every 10000 -max_doc_len 221 -max_query_len 32 -lr 3e-6 -n_warmup_steps 160000`
 
-4. Use 'inference.py' to retrieve the relevant documents of the dev srt queries. that is forked into [this repository]().
+4. Run 'inference.py' to retrieve the relevant documents of the dev srt queries. that is forked into [this repository]().
 The command should be as follows:
 
 `python inference.py -task ranking -model bert -max_input 60000000 -vocab prajjwal1/bert-tiny -pretrain prajjwal1/bert-tiny -checkpoint ./checkpoints/bert-tiny_bias-aware.bin -res ./results/bias_inferences/inference_bert-tiny_bias-aware.trec -max_query_len 32 -max_doc_len 221 -batch_size 256 -test queries=./data/target_queries/neutral_queries.tsv,docs=./data/collection.tsv,trec=./data/target_queries/run.neutral_queries.trec`
