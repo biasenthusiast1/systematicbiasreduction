@@ -7,7 +7,7 @@ To this end,
 we propose a bias-aware training loss function for neural ranking
 methods that explicitly considers the degree of measurable gender
 biases associated with negatively sampled documents. We penalize the biased relevant documents as 
-follows where $\Psi({d_i}^+)$ measures the gender bias of ${d_i}^+$. We propose
+follows where <math> &Psi;(d<sub>i</sub><sup>+</sup>)</math> measures the gender bias of <math> d<sub>i</sub><sup>+</sup></math>. We propose
 that including a bias term associated with negative samples in the loss
 function can ensure that the model learns to avoid representations
 that are affiliated with gender biases and at the same time it learns
