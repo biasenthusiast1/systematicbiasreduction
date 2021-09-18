@@ -36,15 +36,23 @@ for each of the methods can be found
 in [results/runs](Results/Runs) 
 directory.
 
-<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Table2.png" alt="drawing" width="200"/>
+<img src="https://github.com/biasenthusiast1/
+systematicbiasreduction/blob/main/Results/Tables/Table2.png" alt="drawing" width="500"/>
 
+<img src="https://github.com/biasenthusiast1/
+systematicbiasreduction/blob/main/Results/Tables/Table3.png" alt="drawing" width="500"/>
 
-![](Results/Tables/Table2.png) 
-![](Results/Tables/Table3.png)
+<img src="https://github.com/biasenthusiast1/
+systematicbiasreduction/blob/main/Results/Tables/Table4.png" alt="drawing" width="500"/>
 
-![](Results/Tables/Table4.png)
+<img src="https://github.com/biasenthusiast1/
+systematicbiasreduction/blob/main/Results/Tables/Table5.png" alt="drawing" width="500"/>
+[//]:![](Results/Tables/Table2.png) 
+[//]:![](Results/Tables/Table3.png)
 
-![](Results/Tables/Table5.png)
+[//]:![](Results/Tables/Table4.png)
+
+[//]:![](Results/Tables/Table5.png)
 
 ## Usage
 
