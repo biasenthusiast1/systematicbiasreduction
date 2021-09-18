@@ -26,7 +26,10 @@ follows:
 [//]: ![](Results/Tables/Loss.png)
 where
 
+<p align="center">
 <img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="250"/>
+</p>
+
 
 [//]:![](Results/Tables/Biase-aware_score.png)
 
