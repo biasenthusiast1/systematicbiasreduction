@@ -27,7 +27,7 @@ follows:
 where
 
 <p align="center">
-<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="250"/>
+<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="220"/>
 </p>
 
 
@@ -39,11 +39,13 @@ of queries for our bias-aware expansion method against ADVBERT.  Associated run 
 for each of the methods can be found
 in [results/runs](Results/Runs) 
 directory.
-
+<p align="center">
 <img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Table2.png" alt="drawing" width="500"/>
+</p>
 
+<p align="center">
 <img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Table3.png" alt="drawing" width="500"/>
-
+</p>
 
 [//]:![](Results/Tables/Table2.png) 
 [//]:![](Results/Tables/Table3.png)
