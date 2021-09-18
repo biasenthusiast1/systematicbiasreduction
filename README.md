@@ -19,6 +19,8 @@ documents. Therefore, such a loss function strives to maintain its
 retrieval effectiveness while reducing gender bias. The proposed loss function is defined as 
 follows:
 
+$\sum_{i=1}^{10} t_i$
+
 ![](Results/Tables/Loss.png)
 where
 ![](Results/Tables/Biase-aware_score.png)
@@ -30,8 +32,10 @@ for each of the methods can be found
 in [results/runs](Results/Runs) 
 directory.
 
-![](Results/Tables/Table2.png)
 
+<img src=Results/Tables/Table2.png, width="200"/>
+
+![](Results/Tables/Table2.png) 
 ![](Results/Tables/Table3.png)
 
 ![](Results/Tables/Table4.png)
