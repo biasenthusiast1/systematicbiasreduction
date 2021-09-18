@@ -19,7 +19,11 @@ documents. Therefore, such a loss function strives to maintain its
 retrieval effectiveness while reducing gender bias. The proposed loss function is defined as 
 follows:
 
-$\sum_{i=1}^{10} t_i$
+<math>
+	L = &Sigma;<sub>i=1</sub><sup>N<sup>+</sup></sup></sup> &Sigma;<sub>i=1
+</sub><sup>N<sup>-</sup></sup> max(0, m - &Phi;(q,d<sub>i</sub><sup>+</sup>) +
+&Phi;<sub>B</sub>(q,d<sub>i</sub><sup>-</sup>))
+</math>
 
 ![](Results/Tables/Loss.png)
 where
