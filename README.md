@@ -19,7 +19,7 @@ documents. Therefore, such a loss function strives to maintain its
 retrieval effectiveness while reducing gender bias. The proposed loss function is defined as 
 follows:
 
-<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Loss.png" alt="drawing" width="200"/>
+<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Loss.png" class="center" width="200"/>
 
 [//]: ![](Results/Tables/Loss.png)
 where
