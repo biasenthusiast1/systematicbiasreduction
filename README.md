@@ -37,7 +37,7 @@ where
 We evaluate our approach by measuring the geneder bias in the retrieved lists
 of queries for our bias-aware expansion method against ADVBERT.  Associated run files
 for each of the methods can be found
-in [results/runs](Results/Runs) 
+in [Results/Runs](Results/Runs) 
 directory.
 <p align="center">
 <img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Table2.png" alt="drawing" width="500"/>
