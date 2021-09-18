@@ -1,5 +1,5 @@
-# The Systematic Reduction of Biases in Neural Rankers
-This repository contains the code and resources for the paper "The Systematic Reduction of Biases in Neural Rankers".
+# The Systematic Reduction of Gender Biases in Neural Rankers
+This repository contains the code and resources for the paper "The Systematic Reduction of Gender Biases in Neural Rankers".
 The objective of this work is to show
 that it is possible to maintain competitive retrieval effectiveness
 while reducing gender biases.
@@ -29,7 +29,7 @@ of queries for our bias-aware expansion method against ADVBERT.  Associated run 
 for each of the methods can be found
 in [results/runs](Results/Runs) 
 directory.
-<img src="Results/Tables/table2.png" width="100" height="100">
+
 ![](Results/Tables/table2.png)
 
 ![](Results/Tables/table3.png)
@@ -48,9 +48,9 @@ directory.
    The new training set can be formed by adding the boolean ARaB measure of each document as the 
    final column of the original MSMARCO training set. Format of the new training set will be:
    
-'<query, doc_positive_doc_negative, bias_doc_negative>'
+`<query, doc_positive_doc_negative, bias_doc_negative>`
 
-3. Run `train_bias_aware.py' to train the model.
+3. Run `train_bias_aware.py` to train the model.
 The command should be as follows:
 
 `python train_bias_aware.py -model bert -train 
@@ -61,13 +61,13 @@ The command should be as follows:
 -metric mrr_cut_10 -batch_size 16 -max_input 12800000 -epoch 1 
 -eval_every 10000 -max_doc_len 221 -max_query_len 32 -lr 3e-6 -n_warmup_steps 160000`
 
-4. Run 'inference.py' to retrieve the relevant documents of the dev srt queries. that is forked into [this repository]().
+4. Run `inference.py` to retrieve the relevant documents of the dev srt queries. that is forked into [this repository](https://github.com/biasenthusiast1/OpenMatch).
 The command should be as follows:
 
 `python inference.py -task ranking -model bert -max_input 60000000 -vocab prajjwal1/bert-tiny -pretrain prajjwal1/bert-tiny -checkpoint ./checkpoints/bert-tiny_bias-aware.bin -res ./results/bias_inferences/inference_bert-tiny_bias-aware.trec -max_query_len 32 -max_doc_len 221 -batch_size 256 -test queries=./data/target_queries/neutral_queries.tsv,docs=./data/collection.tsv,trec=./data/target_queries/run.neutral_queries.trec`
 ##### In order to evaluate the proposed bias-aware loss function and calculate the level of gender biases inside the retirieved documents of each run file:
 
-1. Use 'calculate_mrr.py' script to calculate the MRR of the run file.
+1. Use `calculate_mrr.py` script to calculate the MRR of the run file.
 
 2. You may use `runs_calculate_bias.py` and `model_calculate_bias.py` 
    scripts for calculating the TF ARab and TF Boolean metrics introduced in 
