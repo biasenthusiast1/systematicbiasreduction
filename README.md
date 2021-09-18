@@ -25,7 +25,7 @@ follows:
 &Phi;<sub>B</sub>(q,d<sub>i</sub><sup>-</sup>))
 </math>
 
-![](Results/Tables/Loss.png)
+[//]: ![](Results/Tables/Loss.png)
 where
 ![](Results/Tables/Biase-aware_score.png)
 
@@ -36,8 +36,8 @@ for each of the methods can be found
 in [results/runs](Results/Runs) 
 directory.
 
+<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Table2.png" alt="drawing" width="200"/>
 
-<img src=Results/Tables/Table2.png, width="200"/>
 
 ![](Results/Tables/Table2.png) 
 ![](Results/Tables/Table3.png)
