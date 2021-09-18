@@ -69,8 +69,7 @@ directory.
 `<query, doc_positive_doc_negative, bias_doc_negative>`
 
 ##### Training the model
-###### for training the models, we have employed the OpenMatch implemantation of the bert-based neural rankers 
-(forked into [this repository](https://github.com/biasenthusiast1/OpenMatch))
+###### for training the models, we have employed the OpenMatch implemantation of the bert-based neural rankers (forked into [this repository](https://github.com/biasenthusiast1/OpenMatch))
 
 3. Run `train_bias_aware.py` to train the model.
 The command should be as follows:
