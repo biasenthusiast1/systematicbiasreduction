@@ -19,12 +19,14 @@ documents. Therefore, such a loss function strives to maintain its
 retrieval effectiveness while reducing gender bias. The proposed loss function is defined as 
 follows:
 
-<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Loss.png" alt="drawing" class="center" width="300"/>
+<p align="center">
+  <img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Loss.png" alt="drawing" class="center" width="300"/>
+</p>
 
 [//]: ![](Results/Tables/Loss.png)
 where
 
-<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="300"/>
+<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="250"/>
 
 [//]:![](Results/Tables/Biase-aware_score.png)
 
