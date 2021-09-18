@@ -6,8 +6,13 @@ while reducing gender biases.
 To this end,
 we propose a bias-aware training loss function for neural ranking
 methods that explicitly considers the degree of measurable gender
-biases associated with negatively sampled documents. We penalize the biased relevant documents as 
-follows where <math> &Psi;(d<sub>i</sub><sup>+</sup>)</math> measures the gender bias of <math> d<sub>i</sub><sup>+</sup></math>. We propose
+biases associated with negatively sampled documents. We penalize the biased irrelevant documents as 
+follows:
+<p align="center">
+<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="220"/>
+</p>
+
+where <math> &Phi; </math> is the scoring function and  <math> &Psi;(d<sub>i</sub><sup>-</sup>)</math> measures the gender bias of <math> d<sub>i</sub><sup>-</sup></math>. We propose
 that including a bias term associated with negative samples in the loss
 function can ensure that the model learns to avoid representations
 that are affiliated with gender biases and at the same time it learns
@@ -24,11 +29,7 @@ follows:
 </p>
 
 [//]: ![](Results/Tables/Loss.png)
-where
 
-<p align="center">
-<img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="220"/>
-</p>
 
 
 [//]:![](Results/Tables/Biase-aware_score.png)
