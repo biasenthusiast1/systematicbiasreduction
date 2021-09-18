@@ -12,7 +12,7 @@ follows:
 <img src="https://github.com/biasenthusiast1/systematicbiasreduction/blob/main/Results/Tables/Biase-aware_score.png" alt="drawing" width="220"/>
 </p>
 
-where <math> &Phi; </math> is the scoring function and  <math> &Psi;(d<sub>i</sub><sup>-</sup>)</math> measures the gender bias of <math> d<sub>i</sub><sup>-</sup></math>. We propose
+where <math> &Phi; </math> is the scoring function and  <math> &Psi;(d<sub>j</sub><sup>-</sup>)</math> measures the gender bias of <math> d<sub>j</sub><sup>-</sup></math>. We propose
 that including a bias term associated with negative samples in the loss
 function can ensure that the model learns to avoid representations
 that are affiliated with gender biases and at the same time it learns
